@@ -1,0 +1,116 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+
+body {
+  background: #171717;
+}
+
+.my--card {
+  width: 400px;
+  border-radius: 11px;
+  background: #171717;
+  box-shadow: 20px 20px 60px #141414, -20px -20px 60px #1a1a1a;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  border: 5px solid black;
+}
+
+.my--image > img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.my--info h2,
+.my--info h4 {
+  padding: 10px 5px;
+  text-align: center;
+}
+
+.my--info h4 {
+  color: rgb(231, 148, 40);
+}
+
+.common--padding {
+  padding: 10px;
+}
+
+.heading {
+  color: rgb(17, 17, 232);
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 1px solid blue;
+  padding: 5px;
+}
+
+footer {
+  background-color: #000;
+  box-shadow: 0px -1px 3px black;
+  padding: 10px;
+  border-radius: 0px 0px 10px 10px;
+}
+footer a {
+  text-decoration: none;
+}
+
+button {
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.my--btns {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.goo {
+  background: orange;
+}
+
+.lin {
+  background: rgb(66, 66, 255);
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+footer > div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer > div > a {
+  background: rgb(24, 21, 21);
+  padding: 15px;
+  text-align: center;
+  border-radius: 50%;
+  font-weight: 900;
+  color: rgb(26, 21, 117);
+  width: 20px;
+  height: 20px;
+  box-shadow: 0 0 3px rgb(5, 4, 24);
+}
+
+footer > div > a:hover {
+  background: rgb(26, 21, 117);
+  color: rgb(0, 0, 0);
+  box-shadow: 0 0 3px rgb(15, 12, 57);
+}
+
+.text-cont {
+  line-height: 1.2;
+  font-weight: 700;
+  text-align: justify;
+  font-size: 16px;
+  padding: 10px 0px;
+}
